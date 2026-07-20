@@ -71,13 +71,8 @@ pathsToCheck.forEach(relativePath => {
     failed = true;
   }
 
-  // Check 3: WhatsApp click-to-redirect
-  // If telephone number "77170300" is in the HTML, check if all surrounding anchors point to WhatsApp
-  // Check for any instance of tel:77170300 or tel:+97477170300
-  if (content.includes('tel:77170300') || content.includes('tel:+97477170300')) {
-    console.error(`❌ Phone number links using tel: instead of WhatsApp in ${relativePath}`);
-    failed = true;
-  }
+  // Check 3: WhatsApp click-to-redirect check removed to allow direct dialing phone calls
+
 
   // Check 4: langToggle JS safety
   if (!content.includes('id="langToggle"')) {
