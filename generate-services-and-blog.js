@@ -21,9 +21,9 @@ function cleanEmojis(str) {
 
 // Helper to replace all phone tel links with WhatsApp links
 function forceWhatsApp(str) {
-  let cleaned = str.replace(/href="tel:77175355"/g, 'href="https://wa.me/97477175355"');
-  cleaned = cleaned.replace(/href="tel:\+97477175355"/g, 'href="https://wa.me/97477175355"');
-  cleaned = cleaned.replace(/href="tel:0097477175355"/g, 'href="https://wa.me/97477175355"');
+  let cleaned = str.replace(/href="tel:77170300"/g, 'href="https://wa.me/97477170300"');
+  cleaned = cleaned.replace(/href="tel:\+97477170300"/g, 'href="https://wa.me/97477170300"');
+  cleaned = cleaned.replace(/href="tel:0097477170300"/g, 'href="https://wa.me/97477170300"');
   return cleaned;
 }
 
@@ -339,12 +339,12 @@ ${footer}
 
     <!-- Floating Actions -->
     <div class="floating-actions">
-        <a href="https://wa.me/97477175355" target="_blank" rel="noopener noreferrer" class="float-btn float-whatsapp" aria-label="WhatsApp">
+        <a href="https://wa.me/97477170300" target="_blank" rel="noopener noreferrer" class="float-btn float-whatsapp" aria-label="WhatsApp">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
                 <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
             </svg>
         </a>
-        <a href="https://wa.me/97477175355" class="float-btn float-call" aria-label="WhatsApp Call">
+        <a href="https://wa.me/97477170300" class="float-btn float-call" aria-label="WhatsApp Call">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
                 <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
             </svg>
@@ -355,7 +355,7 @@ ${footer}
     <noscript>
         <div style="background:#fff3cd; padding:20px; text-align:center; border-top:2px solid #ffc107;">
             <p><strong>شركة درب المها للتنظيف</strong> - خدمة 24/7 في قطر</p>
-            <p>اتصل بنا عبر الواتساب: <a href="https://wa.me/97477175355">77175355</a></p>
+            <p>اتصل بنا عبر الواتساب: <a href="https://wa.me/97477170300">77170300</a></p>
         </div>
     </noscript>
 
@@ -398,7 +398,7 @@ const pagesData = [
                   <h1>خدماتنا المتميزة في قطر</h1>
                   <p>يا مرحباً بكم في شركة درب المها. نوفر لكم تشكيلة واسعة من خدمات التنظيف والضيافة الراقية لتلبية كافة احتياجاتكم في منازلكم ومكاتبكم ومناسباتكم في شتى أنحاء قطر. نحن ملتزمون بأعلى معايير الإتقان والجودة بدون أي تعقيد وبأسعار تنافسية تناسب الجميع.</p>
                   <div class="hero-btns">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">تواصل معنا عبر الواتساب</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">تواصل معنا عبر الواتساب</a>
                   </div>
               </div>
           </div>
@@ -417,7 +417,7 @@ const pagesData = [
                           <p>نوفر خدمة التنظيف الشامل والعميق للفلل والقصور والشقق بمواد مرخصة وآلات متطورة تزيل كافة الدهون والأوساخ والغبار.</p>
                           <div class="service-actions">
                               <a href="house-cleaning-doha/" class="service-btn">تفاصيل الخدمة</a>
-                              <a href="https://wa.me/97477175355?text=مرحباً،%20أرغب%20في%20طلب%20خدمة%20تنظيف%20الفلل%20والمنازل" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">تواصل مباشر</a>
+                              <a href="https://wa.me/97477170300?text=مرحباً،%20أرغب%20في%20طلب%20خدمة%20تنظيف%20الفلل%20والمنازل" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">تواصل مباشر</a>
                           </div>
                       </div>
                   </article>
@@ -430,7 +430,7 @@ const pagesData = [
                           <p>عاملات ماهرات ومدربات لمساعدتكم في أعمال المنزل اليومية والغسيل والترتيب بكفاءة وسرعة فائقة.</p>
                           <div class="service-actions">
                               <a href="hourly-maids-qatar/" class="service-btn">تفاصيل الخدمة</a>
-                              <a href="https://wa.me/97477175355?text=مرحباً،%20أرغب%20في%20طلب%20خدمة%20عاملات%20بالساعة" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">تواصل مباشر</a>
+                              <a href="https://wa.me/97477170300?text=مرحباً،%20أرغب%20في%20طلب%20خدمة%20عاملات%20بالساعة" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">تواصل مباشر</a>
                           </div>
                       </div>
                   </article>
@@ -443,7 +443,7 @@ const pagesData = [
                           <p>تنظيف وغسيل الكنب والمجالس والديوانيات بأحدث آلات البخار لإزالة أصعب البقع والروائح وتعقيمها بالكامل.</p>
                           <div class="service-actions">
                               <a href="sofa-carpet-cleaning/" class="service-btn">تفاصيل الخدمة</a>
-                              <a href="https://wa.me/97477175355?text=مرحباً،%20أرغب%20في%20طلب%20خدمة%20غسيل%20الكنب%20والسجاد" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">تواصل مباشر</a>
+                              <a href="https://wa.me/97477170300?text=مرحباً،%20أرغب%20في%20طلب%20خدمة%20غسيل%20الكنب%20والسجاد" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">تواصل مباشر</a>
                           </div>
                       </div>
                   </article>
@@ -456,7 +456,7 @@ const pagesData = [
                           <p>رش مبيدات آمنة ومرخصة للتخلص النهائي من الصراصير والنمل وبق الفراش والقوارض مع ضمان حقيقي.</p>
                           <div class="service-actions">
                               <a href="pest-control-qatar/" class="service-btn">تفاصيل الخدمة</a>
-                              <a href="https://wa.me/97477175355?text=مرحباً،%20أرغب%20في%20طلب%20خدمة%20مكافحة%20ورش%20الحشرات" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">تواصل مباشر</a>
+                              <a href="https://wa.me/97477170300?text=مرحباً،%20أرغب%20في%20طلب%20خدمة%20مكافحة%20ورش%20الحشرات" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">تواصل مباشر</a>
                           </div>
                       </div>
                   </article>
@@ -469,7 +469,7 @@ const pagesData = [
                           <p>غسيل وتعقيم خزانات المياه السفلية والعلوية لضمان وصول مياه نقية وصحية تماماً لعائلتكم.</p>
                           <div class="service-actions">
                               <a href="water-tank-cleaning/" class="service-btn">تفاصيل الخدمة</a>
-                              <a href="https://wa.me/97477175355?text=مرحباً،%20أرغب%20في%20طلب%20خدمة%20تنظيف%20خزانات%20المياه" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">تواصل مباشر</a>
+                              <a href="https://wa.me/97477170300?text=مرحباً،%20أرغب%20في%20طلب%20خدمة%20تنظيف%20خزانات%20المياه" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">تواصل مباشر</a>
                           </div>
                       </div>
                   </article>
@@ -482,7 +482,7 @@ const pagesData = [
                           <p>تنظيف وغسيل مقاعد وفرش السيارات وتلميع الطبلون والأبواب من الداخل والخارج لإزالة الأتربة والبقع المتراكمة.</p>
                           <div class="service-actions">
                               <a href="car-deep-cleaning/" class="service-btn">تفاصيل الخدمة</a>
-                              <a href="https://wa.me/97477175355?text=مرحباً،%20أرغب%20في%20طلب%20خدمة%20التنظيف%20العميق%20للسيارات" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">تواصل مباشر</a>
+                              <a href="https://wa.me/97477170300?text=مرحباً،%20أرغب%20في%20طلب%20خدمة%20التنظيف%20العميق%20للسيارات" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">تواصل مباشر</a>
                           </div>
                       </div>
                   </article>
@@ -498,7 +498,7 @@ const pagesData = [
                   <h1>Our Premium Services in Qatar</h1>
                   <p>Welcome to DarbAlmaha. We provide a wide range of professional cleaning and hospitality services to meet all your requirements in homes, offices, and events across Qatar. We are committed to high quality, efficiency, and competitive rates.</p>
                   <div class="hero-btns">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">Contact Us via WhatsApp</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">Contact Us via WhatsApp</a>
                   </div>
               </div>
           </div>
@@ -517,7 +517,7 @@ const pagesData = [
                           <p>Complete deep cleaning for villas, penthouses, and apartments using safe detergents and advanced tools.</p>
                           <div class="service-actions">
                               <a href="house-cleaning-doha/" class="service-btn">Service Details</a>
-                              <a href="https://wa.me/97477175355?text=Hello,%20I%20would%20like%20to%20book%20Villa%20and%20Home%20Cleaning%20service" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">WhatsApp Us</a>
+                              <a href="https://wa.me/97477170300?text=Hello,%20I%20would%20like%20to%20book%20Villa%20and%20Home%20Cleaning%20service" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">WhatsApp Us</a>
                           </div>
                       </div>
                   </article>
@@ -530,7 +530,7 @@ const pagesData = [
                           <p>Skilled hourly maids to assist you with daily home cleaning, organizing, and laundry tasks with efficiency.</p>
                           <div class="service-actions">
                               <a href="hourly-maids-qatar/" class="service-btn">Service Details</a>
-                              <a href="https://wa.me/97477175355?text=Hello,%20I%20would%20like%20to%20book%20Hourly%20Maids%20service" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">WhatsApp Us</a>
+                              <a href="https://wa.me/97477170300?text=Hello,%20I%20would%20like%20to%20book%20Hourly%20Maids%20service" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">WhatsApp Us</a>
                           </div>
                       </div>
                   </article>
@@ -543,7 +543,7 @@ const pagesData = [
                           <p>Deep steam cleaning for sofas, majlis, and carpets to remove tough stains, dust mites, and odors.</p>
                           <div class="service-actions">
                               <a href="sofa-carpet-cleaning/" class="service-btn">Service Details</a>
-                              <a href="https://wa.me/97477175355?text=Hello,%20I%20would%20like%20to%20book%20Sofa%20and%20Carpet%20Steam%20Cleaning%20service" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">WhatsApp Us</a>
+                              <a href="https://wa.me/97477170300?text=Hello,%20I%20would%20like%20to%20book%20Sofa%20and%20Carpet%20Steam%20Cleaning%20service" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">WhatsApp Us</a>
                           </div>
                       </div>
                   </article>
@@ -556,7 +556,7 @@ const pagesData = [
                           <p>Safe and licensed insecticide spraying to eliminate cockroaches, ants, bed bugs, and rodents.</p>
                           <div class="service-actions">
                               <a href="pest-control-qatar/" class="service-btn">Service Details</a>
-                              <a href="https://wa.me/97477175355?text=Hello,%20I%20would%20like%20to%20book%20Pest%20Control%20and%20Spraying%20service" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">WhatsApp Us</a>
+                              <a href="https://wa.me/97477170300?text=Hello,%20I%20would%20like%20to%20book%20Pest%20Control%20and%20Spraying%20service" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">WhatsApp Us</a>
                           </div>
                       </div>
                   </article>
@@ -569,7 +569,7 @@ const pagesData = [
                           <p>Washing and sanitizing water tanks with safe materials to ensure pure, contaminant-free water.</p>
                           <div class="service-actions">
                               <a href="water-tank-cleaning/" class="service-btn">Service Details</a>
-                              <a href="https://wa.me/97477175355?text=Hello,%20I%20would%20like%20to%20book%20Water%20Tank%20Washing%20service" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">WhatsApp Us</a>
+                              <a href="https://wa.me/97477170300?text=Hello,%20I%20would%20like%20to%20book%20Water%20Tank%20Washing%20service" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">WhatsApp Us</a>
                           </div>
                       </div>
                   </article>
@@ -582,7 +582,7 @@ const pagesData = [
                           <p>Detailed cleaning for car seats, carpets, dashboard, and doors to restore your vehicle interior cleanliness.</p>
                           <div class="service-actions">
                               <a href="car-deep-cleaning/" class="service-btn">Service Details</a>
-                              <a href="https://wa.me/97477175355?text=Hello,%20I%20would%20like%20to%20book%20Car%20Deep%20Cleaning%20service" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">WhatsApp Us</a>
+                              <a href="https://wa.me/97477170300?text=Hello,%20I%20would%20like%20to%20book%20Car%20Deep%20Cleaning%20service" target="_blank" rel="noopener noreferrer" class="service-whatsapp-btn">WhatsApp Us</a>
                           </div>
                       </div>
                   </article>
@@ -611,7 +611,7 @@ const pagesData = [
                   <h1>تنظيف المنازل والفلل بالدوحة</h1>
                   <p>نقدم لكم خدمات تنظيف الفلل والبيوت السكنية في الدوحة بأعلى درجات الاحترافية والإتقان. نتولى تنظيف وتطهير كافة أركان المنزل لتنعموا ببيئة صحية ومريحة تليق بكم وبمجالسكم.</p>
                   <div class="hero-btns">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">حجز موعد عبر الواتساب</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">حجز موعد عبر الواتساب</a>
                   </div>
               </div>
           </div>
@@ -663,7 +663,7 @@ const pagesData = [
                   <h1>Villa & House Cleaning Services Doha</h1>
                   <p>Professional home and villa cleaning services in Doha with high standards. We take care of every corner of your home to provide a clean and healthy environment for your family.</p>
                   <div class="hero-btns">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">Book via WhatsApp</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">Book via WhatsApp</a>
                   </div>
               </div>
           </div>
@@ -727,7 +727,7 @@ const pagesData = [
                   <h1>عاملات بالساعة في قطر</h1>
                   <p>نوفر لكم أفضل عاملات النظافة بنظام الساعة في الدوحة ومختلف مناطق قطر. عمالة خبيرة بالأعمال المنزلية والترتيب لتنظيف وتنسيق منازلكم بمرونة تامة تناسب جدولكم اليومي.</p>
                   <div class="hero-btns">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">اطلب عاملة الآن عبر الواتساب</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">اطلب عاملة الآن عبر الواتساب</a>
                   </div>
               </div>
           </div>
@@ -779,7 +779,7 @@ const pagesData = [
                   <h1>Hourly Maids Services in Qatar</h1>
                   <p>We provide the best hourly cleaning ladies in Doha and across Qatar. Well-trained, professional, and reliable maids to handle your daily housekeeping chores with absolute flexibility.</p>
                   <div class="hero-btns">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">Request a Maid via WhatsApp</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">Request a Maid via WhatsApp</a>
                   </div>
               </div>
           </div>
@@ -843,7 +843,7 @@ const pagesData = [
                   <h1>غسيل الكنب والسجاد والمجالس بالبخار</h1>
                   <p>نعيد لفرش مجالسكم وديوانياتكم رونقها ونظافتها الأصلية. نوفر خدمات غسيل الكنب والسجاد بالبخار والتعقيم الفعال للتخلص من البقع والروائح الكريهة وأتربة الرطوبة والرمال.</p>
                   <div class="hero-btns">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">احجز موعد التنظيف عبر الواتساب</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">احجز موعد التنظيف عبر الواتساب</a>
                   </div>
               </div>
           </div>
@@ -895,7 +895,7 @@ const pagesData = [
                   <h1>Sofa, Carpet & Majlis Steam Cleaning</h1>
                   <p>Restore the freshness and hygiene of your home upholstery. We provide deep steam cleaning for sofas, carpets, rugs, and traditional majlis seating to remove tough stains, dust mites, and odors.</p>
                   <div class="hero-btns">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">Book Sofa Cleaning via WhatsApp</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">Book Sofa Cleaning via WhatsApp</a>
                   </div>
               </div>
           </div>
@@ -959,7 +959,7 @@ const pagesData = [
                   <h1>رش ومكافحة الحشرات والقوارض في قطر</h1>
                   <p>نخلصكم نهائياً من الحشرات المزعجة والآفات التي تؤثر على راحة وصحة عائلتكم. نوفر خدمات رش ومكافحة الحشرات المنزلية بمواد آمنة ومرخصة ومعتمدة في دولة قطر بضمان حقيقي.</p>
                   <div class="hero-btns">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">اطلب خدمة رش الحشرات عبر الواتساب</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">اطلب خدمة رش الحشرات عبر الواتساب</a>
                   </div>
               </div>
           </div>
@@ -1011,7 +1011,7 @@ const pagesData = [
                   <h1>Pest Control & Insecticide Spraying Qatar</h1>
                   <p>Protect your home and family from disturbing pests and rodents. We provide professional pest control and disinfection services in Qatar using approved, family-safe materials with solid guarantees.</p>
                   <div class="hero-btns">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">Request Pest Control via WhatsApp</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">Request Pest Control via WhatsApp</a>
                   </div>
               </div>
           </div>
@@ -1075,7 +1075,7 @@ const pagesData = [
                   <h1>تنظيف وتعقيم خزانات المياه</h1>
                   <p>نحافظ على سلامة وصحة مياه الشرب والاستخدام في بيوتكم. نوفر خدمات غسيل وتعقيم خزانات المياه العلوية والسفلية بمواد مرخصة وآمنة تماماً تزيل الشوائب والأوساخ العالقة.</p>
                   <div class="hero-btns">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">اطلب تنظيف الخزان عبر الواتساب</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">اطلب تنظيف الخزان عبر الواتساب</a>
                   </div>
               </div>
           </div>
@@ -1127,7 +1127,7 @@ const pagesData = [
                   <h1>Water Tank Washing & Disinfection Services</h1>
                   <p>Keep your domestic water supply clean and free of germs. We wash, scrub, and sanitize underground and roof water tanks using food-grade disinfectants to ensure pure water storage.</p>
                   <div class="hero-btns">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">Book Tank Cleaning via WhatsApp</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">Book Tank Cleaning via WhatsApp</a>
                   </div>
               </div>
           </div>
@@ -1191,7 +1191,7 @@ const pagesData = [
                   <h1>التنظيف العميق للسيارات من الداخل</h1>
                   <p>نعيد لسيارتكم رونقها ورائحتها المنعشة كأنها جديدة. نوفر خدمة التنظيف العميق لداخلية السيارات وإزالة البقع العنيدة عن المراتب الجلدية والمخملية وتلميع الأبواب والطبلون بدقة عالية.</p>
                   <div class="hero-btns">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">اطلب تنظيف سيارتك عبر الواتساب</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">اطلب تنظيف سيارتك عبر الواتساب</a>
                   </div>
               </div>
           </div>
@@ -1243,7 +1243,7 @@ const pagesData = [
                   <h1>Interior Car Deep Cleaning Services</h1>
                   <p>Restore the showroom look and freshness of your vehicle. We offer high-quality interior car detailing and deep cleaning to wash seats, shampoo carpets, remove stains, and polish dashboard surfaces.</p>
                   <div class="hero-btns">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">Book Car Cleaning via WhatsApp</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">Book Car Cleaning via WhatsApp</a>
                   </div>
               </div>
           </div>
@@ -1321,7 +1321,7 @@ const pagesData = [
                       </div>
                       <div style="margin-bottom: 20px;">
                           <label style="display: block; margin-bottom: 8px; font-weight: 600;">رقم الهاتف الجوال</label>
-                          <input type="tel" id="bookingPhone" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-family: inherit;" placeholder="مثال: 77175355">
+                          <input type="tel" id="bookingPhone" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-family: inherit;" placeholder="مثال: 77170300">
                       </div>
                       <div style="margin-bottom: 20px;">
                           <label style="display: block; margin-bottom: 8px; font-weight: 600;">الخدمة المطلوبة</label>
@@ -1389,7 +1389,7 @@ const pagesData = [
                            '* الوقت: ' + time + '\\n' +
                            '* ملاحظات: ' + notes;
 
-              const url = 'https://wa.me/97477175355?text=' + encodeURIComponent(text);
+              const url = 'https://wa.me/97477170300?text=' + encodeURIComponent(text);
               window.open(url, '_blank');
           }
       </script>
@@ -1414,7 +1414,7 @@ const pagesData = [
                       </div>
                       <div style="margin-bottom: 20px;">
                           <label style="display: block; margin-bottom: 8px; font-weight: 600;">Phone Number</label>
-                          <input type="tel" id="bookingPhoneEn" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-family: inherit;" placeholder="e.g. 77175355">
+                          <input type="tel" id="bookingPhoneEn" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 6px; font-family: inherit;" placeholder="e.g. 77170300">
                       </div>
                       <div style="margin-bottom: 20px;">
                           <label style="display: block; margin-bottom: 8px; font-weight: 600;">Required Service</label>
@@ -1482,7 +1482,7 @@ const pagesData = [
                            '* Time: ' + time + '\\n' +
                            '* Notes: ' + notes;
 
-              const url = 'https://wa.me/97477175355?text=' + encodeURIComponent(text);
+              const url = 'https://wa.me/97477170300?text=' + encodeURIComponent(text);
               window.open(url, '_blank');
           }
       </script>
@@ -1522,7 +1522,7 @@ const pagesData = [
                           <li>مساعدة متكاملة في الترتيب والغسيل</li>
                           <li>تغطية شاملة لكافة مناطق الدوحة</li>
                       </ul>
-                      <a href="https://wa.me/97477175355?text=مرحباً،%20أرغب%20بالاستفسار%20عن%20أسعار%20باقة%20العاملات%20بالساعة" class="btn btn-primary" style="display: block;">اطلب عرض سعر فوري</a>
+                      <a href="https://wa.me/97477170300?text=مرحباً،%20أرغب%20بالاستفسار%20عن%20أسعار%20باقة%20العاملات%20بالساعة" class="btn btn-primary" style="display: block;">اطلب عرض سعر فوري</a>
                   </article>
                   
                   <article class="service-card" style="text-align: center; padding: 30px; border: 2px solid #0a4b86;">
@@ -1534,7 +1534,7 @@ const pagesData = [
                           <li>تعقيم الحمامات والبورسلين بالكامل</li>
                           <li>تلميع الزجاج الداخلي والخارجي للنوافذ</li>
                       </ul>
-                      <a href="https://wa.me/97477175355?text=مرحباً،%20أرغب%20بالاستفسار%20عن%20أسعار%20باقة%20الديب%20كلين%20للفلل%20والشقق" class="btn btn-primary" style="display: block; background: #0a4b86;">اطلب عرض سعر فوري</a>
+                      <a href="https://wa.me/97477170300?text=مرحباً،%20أرغب%20بالاستفسار%20عن%20أسعار%20باقة%20الديب%20كلين%20للفلل%20والشقق" class="btn btn-primary" style="display: block; background: #0a4b86;">اطلب عرض سعر فوري</a>
                   </article>
 
                   <article class="service-card" style="text-align: center; padding: 30px;">
@@ -1546,7 +1546,7 @@ const pagesData = [
                           <li>تعقيم بالبخار الحار للقضاء على البكتيريا</li>
                           <li>تجفيف سريع للفرش مع الحفاظ على الألوان</li>
                       </ul>
-                      <a href="https://wa.me/97477175355?text=مرحباً،%20أرغب%20بالاستفسار%20عن%20أسعار%20باقة%20غسيل%20المجالس%20بالبخار" class="btn btn-primary" style="display: block;">اطلب عرض سعر فوري</a>
+                      <a href="https://wa.me/97477170300?text=مرحباً،%20أرغب%20بالاستفسار%20عن%20أسعار%20باقة%20غسيل%20المجالس%20بالبخار" class="btn btn-primary" style="display: block;">اطلب عرض سعر فوري</a>
                   </article>
               </div>
           </div>
@@ -1574,7 +1574,7 @@ const pagesData = [
                           <li>Assistance in organizing and laundry</li>
                           <li>Available across all Doha areas</li>
                       </ul>
-                      <a href="https://wa.me/97477175355?text=Hello,%20I%20want%20to%20know%20the%20hourly%20maids%20package%20pricing" class="btn btn-primary" style="display: block;">Get Custom Quote</a>
+                      <a href="https://wa.me/97477170300?text=Hello,%20I%20want%20to%20know%20the%20hourly%20maids%20package%20pricing" class="btn btn-primary" style="display: block;">Get Custom Quote</a>
                   </article>
                   
                   <article class="service-card" style="text-align: center; padding: 30px; border: 2px solid #0a4b86;">
@@ -1586,7 +1586,7 @@ const pagesData = [
                           <li>Full bathroom sanitizing and limescale removal</li>
                           <li>Internal & external window glass polishing</li>
                       </ul>
-                      <a href="https://wa.me/97477175355?text=Hello,%20I%20want%20to%20know%20the%20villa%20deep%20cleaning%20package%20pricing" class="btn btn-primary" style="display: block; background: #0a4b86;">Get Custom Quote</a>
+                      <a href="https://wa.me/97477170300?text=Hello,%20I%20want%20to%20know%20the%20villa%20deep%20cleaning%20package%20pricing" class="btn btn-primary" style="display: block; background: #0a4b86;">Get Custom Quote</a>
                   </article>
 
                   <article class="service-card" style="text-align: center; padding: 30px;">
@@ -1598,7 +1598,7 @@ const pagesData = [
                           <li>Hot steam extraction for germs elimination</li>
                           <li>Fast drying fabric-safe process</li>
                       </ul>
-                      <a href="https://wa.me/97477175355?text=Hello,%20I%20want%20to%20know%20the%20sofa%20steam%20cleaning%20package%20pricing" class="btn btn-primary" style="display: block;">Get Custom Quote</a>
+                      <a href="https://wa.me/97477170300?text=Hello,%20I%20want%20to%20know%20the%20sofa%20steam%20cleaning%20package%20pricing" class="btn btn-primary" style="display: block;">Get Custom Quote</a>
                   </article>
               </div>
           </div>
@@ -1842,7 +1842,7 @@ const pagesData = [
                   <p>إذا كنت تجد صعوبة في مواكبة هذا الجدول وتفضل الاستعانة بمتخصصين، يسعدنا في <strong>درب المها</strong> تقديم المساعدة وتوفير عاملات نظافة خبيرات بالساعة أو القيام بعمليات التنظيف العميق للفلل والبيوت. تواصلوا معنا مباشرة عبر الواتساب لتنسيق المواعيد المناسبة لكم.</p>
                   
                   <div style="margin-top: 30px; text-align: center;">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">تواصل معنا الآن عبر الواتساب</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">تواصل معنا الآن عبر الواتساب</a>
                   </div>
               </article>
           </div>
@@ -1873,7 +1873,7 @@ const pagesData = [
                   <p>If managing this routine is difficult, <strong>DarbAlmaha</strong> provides skilled hourly maids and deep cleaning services to keep your home pristine. Contact us via WhatsApp to arrange a booking.</p>
                   
                   <div style="margin-top: 30px; text-align: center;">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">Contact Us on WhatsApp</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">Contact Us on WhatsApp</a>
                   </div>
               </article>
           </div>
@@ -1916,7 +1916,7 @@ const pagesData = [
                   <p>في شركة <strong>درب المها</strong>، نوفر لكم نخبة من عاملات النظافة الماهرات بنظام الساعة اللواتي خضعن لتدريب مكثف على أعلى مستويات الجودة والالتزام بالأمانة في قطر. تواصلوا معنا مباشرة عبر الواتساب لتنسيق وحجز عاملتكم اليوم.</p>
                   
                   <div style="margin-top: 30px; text-align: center;">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">تواصل معنا الآن عبر الواتساب</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">تواصل معنا الآن عبر الواتساب</a>
                   </div>
               </article>
           </div>
@@ -1947,7 +1947,7 @@ const pagesData = [
                   <p>At <strong>DarbAlmaha</strong>, we supply trained, vetted, and trustworthy hourly cleaning maids across Qatar. Reach out via WhatsApp to schedule your cleaning maid today.</p>
                   
                   <div style="margin-top: 30px; text-align: center;">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">Contact Us on WhatsApp</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">Contact Us on WhatsApp</a>
                   </div>
               </article>
           </div>
@@ -1990,7 +1990,7 @@ const pagesData = [
                   <p>يسعدنا في <strong>درب المها</strong> تقديم خدمات غسيل الكنب والمجالس والسجاد بالبخار في منازلكم مباشرة بأحدث الأجهزة والمواد المعطرة. تواصلوا معنا عبر الواتساب لتنسيق زيارة فريقنا الفني.</p>
                   
                   <div style="margin-top: 30px; text-align: center;">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">تواصل معنا الآن عبر الواتساب</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">تواصل معنا الآن عبر الواتساب</a>
                   </div>
               </article>
           </div>
@@ -2021,7 +2021,7 @@ const pagesData = [
                   <p>At <strong>DarbAlmaha</strong>, we offer professional mobile steam cleaning for sofas, carpets, and majlis at your home. Contact us via WhatsApp to book our technician today.</p>
                   
                   <div style="margin-top: 30px; text-align: center;">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">Contact Us on WhatsApp</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">Contact Us on WhatsApp</a>
                   </div>
               </article>
           </div>
@@ -2064,7 +2064,7 @@ const pagesData = [
                   <p>نوفر في <strong>درب المها</strong> خدمة متكاملة لغسيل وتعقيم خزانات المياه بأيدي فنيين متخصصين ومواد تعقيم معتمدة وآمنة. تواصلوا معنا مباشرة عبر الواتساب لحجز موعد تنظيف خزان بيتكم.</p>
                   
                   <div style="margin-top: 30px; text-align: center;">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">تواصل معنا الآن عبر الواتساب</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">تواصل معنا الآن عبر الواتساب</a>
                   </div>
               </article>
           </div>
@@ -2095,7 +2095,7 @@ const pagesData = [
                   <p>At <strong>DarbAlmaha</strong>, we clean and sanitize residential water tanks using approved, family-safe sanitizers. Connect with us on WhatsApp to schedule your tank inspection.</p>
                   
                   <div style="margin-top: 30px; text-align: center;">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">Contact Us on WhatsApp</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">Contact Us on WhatsApp</a>
                   </div>
               </article>
           </div>
@@ -2138,7 +2138,7 @@ const pagesData = [
                   <p>تقدم شركة <strong>درب المها</strong> خدمات مكافحة الحشرات ورش المبيدات بضمان أكيد ومواد آمنة بالكامل على أيدي كادر مؤهل. تواصلوا معنا عبر الواتساب لحماية بيتكم من الحشرات قبل الصيف.</p>
                   
                   <div style="margin-top: 30px; text-align: center;">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">تواصل معنا الآن عبر الواتساب</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">تواصل معنا الآن عبر الواتساب</a>
                   </div>
               </article>
           </div>
@@ -2169,7 +2169,7 @@ const pagesData = [
                   <p>At <strong>DarbAlmaha</strong>, we provide comprehensive pest control and disinfection with solid warranties. Reach out on WhatsApp to safeguard your home today.</p>
                   
                   <div style="margin-top: 30px; text-align: center;">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">Contact Us on WhatsApp</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">Contact Us on WhatsApp</a>
                   </div>
               </article>
           </div>
@@ -2212,7 +2212,7 @@ const pagesData = [
                   <p>نوفر في <strong>درب المها</strong> خدمة التنظيف العميق (ديب كلين) لداخلية السيارات بمواد إيطالية مخصصة للعناية بالفرش والجلد والطبلون بأسعار مناسبة. تواصلوا معنا عبر الواتساب لحجز خدمة تلميع سيارتكم.</p>
                   
                   <div style="margin-top: 30px; text-align: center;">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">تواصل معنا الآن عبر الواتساب</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">تواصل معنا الآن عبر الواتساب</a>
                   </div>
               </article>
           </div>
@@ -2243,7 +2243,7 @@ const pagesData = [
                   <p>At <strong>DarbAlmaha</strong>, we offer interior car deep cleaning and upholstery detailing using high-grade care products. Message us on WhatsApp to schedule your vehicle detailing.</p>
                   
                   <div style="margin-top: 30px; text-align: center;">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">Contact Us on WhatsApp</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">Contact Us on WhatsApp</a>
                   </div>
               </article>
           </div>
@@ -2286,7 +2286,7 @@ const pagesData = [
                   <p>يسعدنا في شركة <strong>درب المها</strong> توفير عاملات بالساعة ماهرات لترتيب وتنظيف مجالسكم، أو القيام بغسيل شامل للكنب والسجاد بالبخار والتعقيم. تواصلوا معنا مباشرة عبر الواتساب لتنسيق طلباتكم.</p>
                   
                   <div style="margin-top: 30px; text-align: center;">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">تواصل معنا الآن عبر الواتساب</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">تواصل معنا الآن عبر الواتساب</a>
                   </div>
               </article>
           </div>
@@ -2317,7 +2317,7 @@ const pagesData = [
                   <p>At <strong>DarbAlmaha</strong>, we offer hourly maids for majlis arrangement and deep steam extraction for sofas and carpets. Connect with us on WhatsApp for assistance.</p>
                   
                   <div style="margin-top: 30px; text-align: center;">
-                      <a href="https://wa.me/97477175355" class="btn btn-whatsapp">Contact Us on WhatsApp</a>
+                      <a href="https://wa.me/97477170300" class="btn btn-whatsapp">Contact Us on WhatsApp</a>
                   </div>
               </article>
           </div>

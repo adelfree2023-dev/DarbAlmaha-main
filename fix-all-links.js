@@ -15,8 +15,8 @@ function fixHtmlFile(filePath, isEn) {
   content = content.replace(emojiRegex, '');
 
   // 2. Clean tel links (point to WhatsApp)
-  content = content.replace(/href="tel:77175355"/g, 'href="https://wa.me/97477175355"');
-  content = content.replace(/href="tel:\+97477175355"/g, 'href="https://wa.me/97477175355"');
+  content = content.replace(/href="tel:77170300"/g, 'href="https://wa.me/97477170300"');
+  content = content.replace(/href="tel:\+97477170300"/g, 'href="https://wa.me/97477170300"');
 
   // 3. Compute depth and relative prefix
   const relativeToLang = path.relative(isEn ? enDir : arDir, path.dirname(filePath));

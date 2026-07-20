@@ -64,7 +64,7 @@ pathsToCheck.forEach(relativePath => {
 
   // Check 2: Pricing numbers
   // Check if there are strings like "30 ريال" or "500 QAR" or "35 QAR" or "35 ر.ق"
-  // Note: We want to exclude dates like "2026" or "24/7" or coordinates or telephone number "77175355"
+  // Note: We want to exclude dates like "2026" or "24/7" or coordinates or telephone number "77170300"
   const priceMatches = content.match(/(?:(?:QAR|QR|ريال|ر\.ق)\s*\d+)|(?:\d+\s*(?:QAR|QR|ريال|ر\.ق))/i);
   if (priceMatches) {
     console.error(`❌ Potential price numbers found in ${relativePath}: "${priceMatches[0]}"`);
@@ -72,9 +72,9 @@ pathsToCheck.forEach(relativePath => {
   }
 
   // Check 3: WhatsApp click-to-redirect
-  // If telephone number "77175355" is in the HTML, check if all surrounding anchors point to WhatsApp
-  // Check for any instance of tel:77175355 or tel:+97477175355
-  if (content.includes('tel:77175355') || content.includes('tel:+97477175355')) {
+  // If telephone number "77170300" is in the HTML, check if all surrounding anchors point to WhatsApp
+  // Check for any instance of tel:77170300 or tel:+97477170300
+  if (content.includes('tel:77170300') || content.includes('tel:+97477170300')) {
     console.error(`❌ Phone number links using tel: instead of WhatsApp in ${relativePath}`);
     failed = true;
   }
