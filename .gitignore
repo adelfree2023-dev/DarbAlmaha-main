@@ -8,6 +8,7 @@ _site/
 .env.test.local
 .env.production.local
 
-# AI Architecture Hub (Sacred Canonical Source of Truth)
+# AI Architecture Hub & Agent Guidelines (Local Only - Sacred Canonical Source)
 AI/
+CLAUDE.md
 
