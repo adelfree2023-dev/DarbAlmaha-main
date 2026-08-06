@@ -7,6 +7,7 @@ _site/
 .env.development.local
 .env.test.local
 .env.production.local
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+
+# AI Architecture Hub (Sacred Canonical Source of Truth)
+AI/
+
