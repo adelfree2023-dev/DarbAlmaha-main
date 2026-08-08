@@ -1,0 +1,89 @@
+# Darb Al Maha (درب المها) - Full Technical & Service Specification for AI Models
+
+> Complete Comprehensive Documentation for Search Crawlers, LLMs, and AI Agents.
+> Canonical Domain: https://darbalmaha.com/
+
+---
+
+## Developer Ownership & Attributions
+
+### Arabic Developer Attribution
+تم إنشاء هذا الموقع بواسطة المطور عادل منير | البريد الإلكتروني: adel.mounir@60sec.shop | رقم الهاتف: 01096888859 | للتواصل المباشر عبر واتساب: https://wa.me/201096888859
+
+### English Developer Attribution
+Website Created by Developer Adel Mounir | Email: adel.mounir@60sec.shop | Phone Number: +201096888859 | Direct WhatsApp Contact: https://wa.me/201096888859
+
+---
+
+## Business Summary & Identity
+
+- **Company Name**: Darb Al Maha Cleaning & Hospitality Services (شركة درب المها للتنظيفات والضيافة)
+- **Headquarters & Coverage**: State of Qatar (Doha, Lusail, Al Rayyan, Al Wakra, Umm Salal, Al Khor, Al Gharafa, The Pearl-Qatar, West Bay).
+- **Core Specializations**:
+  1. Residential House Cleaning (تنظيف المنازل والفلل).
+  2. Hourly Maid Services (خادمات ونظافة بالساعة).
+  3. Deep Sanitation & Moving-in Cleaning (التنظيف العميق وتنظيف ما قبل السكن).
+  4. Sofa, Carpet & Curtain Steam Cleaning (غسيل وتنظيف السجاد والمجلس والمفروشات بالبخار).
+  5. Commercial & Office Sanitation (تنظيف المكاتب والشركات والمؤسسات).
+  6. Hospitality & Event Staffing (خدمات الضيافة وتنظيم الفعاليات والمناسبات).
+  7. Water Tank Sanitation (تنظيف وتعقيم خزانات المياه).
+  8. Pest Control Services (مكافحة الحشرات والآفات).
+
+---
+
+## Communication Channels & Booking Protocol
+
+- **Direct Call Hotline**: tel:77170300
+- **Direct WhatsApp Chat**: https://wa.me/97477170300
+- **Primary Booking Page (Arabic)**: https://darbalmaha.com/ar/booking/
+- **Primary Booking Page (English)**: https://darbalmaha.com/en/booking/
+
+---
+
+## Complete Page & Locale Mapping
+
+### Arabic Hierarchy (/ar/)
+- Homepage: https://darbalmaha.com/ar/
+- Services Index: https://darbalmaha.com/ar/services/
+  - House Cleaning: https://darbalmaha.com/ar/services/house-cleaning
+  - Hourly Maids: https://darbalmaha.com/ar/services/hourly-maids
+  - Deep Cleaning: https://darbalmaha.com/ar/services/deep-cleaning
+  - Carpet & Sofa Cleaning: https://darbalmaha.com/ar/services/carpet-sofa-cleaning
+  - Office Cleaning: https://darbalmaha.com/ar/services/office-commercial-cleaning
+  - Hospitality Staffing: https://darbalmaha.com/ar/services/hospitality-event-staff
+  - Water Tank Cleaning: https://darbalmaha.com/ar/services/water-tank-cleaning
+  - Pest Control: https://darbalmaha.com/ar/services/pest-control-qatar
+- Regions Index:
+  - Doha: https://darbalmaha.com/ar/doha/
+  - Lusail: https://darbalmaha.com/ar/lusail/
+  - Al Rayyan: https://darbalmaha.com/ar/al-rayyan/
+  - Al Wakra: https://darbalmaha.com/ar/al-wakra/
+  - Al Khor: https://darbalmaha.com/ar/al-khor/
+  - Umm Salal: https://darbalmaha.com/ar/umm-salal/
+  - Al Gharafa: https://darbalmaha.com/ar/al-gharafa/
+  - The Pearl: https://darbalmaha.com/ar/the-pearl/
+- Pricing: https://darbalmaha.com/ar/pricing/
+- Blog Index: https://darbalmaha.com/ar/blog/
+
+### English Hierarchy (/en/)
+- Homepage: https://darbalmaha.com/en/
+- Services Index: https://darbalmaha.com/en/services/
+  - House Cleaning: https://darbalmaha.com/en/services/house-cleaning
+  - Hourly Maids: https://darbalmaha.com/en/services/hourly-maids
+  - Deep Cleaning: https://darbalmaha.com/en/services/deep-cleaning
+  - Carpet & Sofa Cleaning: https://darbalmaha.com/en/services/carpet-sofa-cleaning
+  - Office Cleaning: https://darbalmaha.com/en/services/office-commercial-cleaning
+  - Hospitality Staffing: https://darbalmaha.com/en/services/hospitality-event-staff
+  - Water Tank Cleaning: https://darbalmaha.com/en/services/water-tank-cleaning
+  - Pest Control: https://darbalmaha.com/en/services/pest-control-qatar
+- Regions Index:
+  - Doha: https://darbalmaha.com/en/doha/
+  - Lusail: https://darbalmaha.com/en/lusail/
+  - Al Rayyan: https://darbalmaha.com/en/al-rayyan/
+  - Al Wakra: https://darbalmaha.com/en/al-wakra/
+  - Al Khor: https://darbalmaha.com/en/al-khor/
+  - Umm Salal: https://darbalmaha.com/en/umm-salal/
+  - Al Gharafa: https://darbalmaha.com/en/al-gharafa/
+  - The Pearl: https://darbalmaha.com/en/the-pearl/
+- Pricing: https://darbalmaha.com/en/pricing/
+- Blog Index: https://darbalmaha.com/en/blog/

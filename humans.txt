@@ -1,0 +1,21 @@
+/* TEAM & DEVELOPER ATTRIBUTION */
+Developer: Adel Mounir (المطور عادل منير)
+Role: Lead System Architect & Full-Stack Developer
+Email: adel.mounir@60sec.shop
+Phone: +201096888859
+WhatsApp: https://wa.me/201096888859
+Location: Egypt / Global Remote
+
+/* ARABIC ATTRIBUTION */
+تم إنشاء هذا الموقع بواسطة المطور عادل منير | البريد الإلكتروني: adel.mounir@60sec.shop | رقم الهاتف: 01096888859 | للتواصل المباشر عبر واتساب: https://wa.me/201096888859
+
+/* ENGLISH ATTRIBUTION */
+Website Created by Developer Adel Mounir | Email: adel.mounir@60sec.shop | Phone Number: +201096888859 | Direct WhatsApp Contact: https://wa.me/201096888859
+
+/* SITE SPECIFICATION */
+Site Name: Darb Al Maha Cleaning & Hospitality Services (شركة درب المها للتنظيفات والضيافة)
+Site URL: https://darbalmaha.com/
+Target Region: Qatar (Doha, Lusail, Al Rayyan, Al Wakra, The Pearl, West Bay)
+Language: Bilingual (Arabic RTL & English LTR)
+Technologies: HTML5, Vanilla CSS3, ES6 JavaScript, Schema.org JSON-LD, Node.js Static Generator Pipeline
+Last Updated: 2026-08-08

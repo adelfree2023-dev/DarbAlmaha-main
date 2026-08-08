@@ -4,8 +4,11 @@
 User-agent: *
 Allow: /
 
-# AI & LLM Documentation Mapping
+# AI & Web Standards Mapping
 Sitemap: https://darbalmaha.com/sitemap.xml
+# AI Documentation: https://darbalmaha.com/llms.txt
+# Extended AI Documentation: https://darbalmaha.com/llms-full.txt
+# Developer & Team Attribution: https://darbalmaha.com/humans.txt
 
 # Explicitly Allow All AI Crawlers & LLM Bots
 User-agent: GPTBot
