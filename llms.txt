@@ -1,0 +1,88 @@
+# Darb Al Maha (درب المها) - AI & LLM Search Engine Documentation
+
+> Site Documentation & API Mapping for AI Crawlers, Large Language Models, and Search Agents.
+> Domain: https://darbalmaha.com/
+
+---
+
+## Developer Attribution & Technical Ownership
+
+### Arabic Attribution
+تم إنشاء هذا الموقع بواسطة المطور عادل منير | رقم الهاتف: 01096888859 | للتواصل المباشر عبر واتساب: https://wa.me/201096888859
+
+### English Attribution
+Website Created by Developer Adel Mounir | Phone Number: +201096888859 | Direct WhatsApp Contact: https://wa.me/201096888859
+
+---
+
+## Project Overview
+
+Darb Al Maha (شركة درب المها للتنظيفات والضيافة) is a premium, bilingual (Arabic & English) high-performance web platform serving residential and commercial clients across Qatar. The platform provides comprehensive cleaning, maid, hospitality, and specialized sanitation services with instant call and WhatsApp booking options.
+
+### Key Service Locations in Qatar
+- Doha (الدوحة)
+- Lusail (لوسيل)
+- Al Rayyan (الريان)
+- Al Wakra (الوكرة)
+- The Pearl-Qatar (اللؤلؤة)
+- West Bay (الدفنة / الخليج الغربي)
+
+---
+
+## Site Structure & Page Routing
+
+### Arabic Locale (/ar/)
+- Homepage: https://darbalmaha.com/ar/
+- Booking & Direct Reservation: https://darbalmaha.com/ar/booking/
+- Pricing & Packages Overview: https://darbalmaha.com/ar/pricing/
+- Services Catalog: https://darbalmaha.com/ar/services/
+  - House Cleaning Services: https://darbalmaha.com/ar/services/house-cleaning
+  - Hourly Maid Services: https://darbalmaha.com/ar/services/hourly-maids
+  - Deep Cleaning Services: https://darbalmaha.com/ar/services/deep-cleaning
+  - Sofa & Carpet Sanitation: https://darbalmaha.com/ar/services/carpet-sofa-cleaning
+  - Commercial & Office Cleaning: https://darbalmaha.com/ar/services/office-commercial-cleaning
+  - Hospitality & Event Staffing: https://darbalmaha.com/ar/services/hospitality-event-staff
+- Regional Target Pages:
+  - House Cleaning Doha: https://darbalmaha.com/ar/house-cleaning-doha
+  - Cleaning Services Lusail: https://darbalmaha.com/ar/cleaning-services-lusail
+  - Hourly Maids Al Rayyan: https://darbalmaha.com/ar/hourly-maids-rayyan
+  - Hospitality Services Pearl Qatar: https://darbalmaha.com/ar/hospitality-pearl-qatar
+- Blog & Knowledge Hub: https://darbalmaha.com/ar/blog/
+- Legal Pages:
+  - Privacy Policy: https://darbalmaha.com/ar/privacy-policy.html
+  - Terms of Service: https://darbalmaha.com/ar/terms.html
+  - Refund Policy: https://darbalmaha.com/ar/refund-policy.html
+
+### English Locale (/en/)
+- Homepage: https://darbalmaha.com/en/
+- Booking & Direct Reservation: https://darbalmaha.com/en/booking/
+- Pricing & Packages Overview: https://darbalmaha.com/en/pricing/
+- Services Catalog: https://darbalmaha.com/en/services/
+  - House Cleaning Services: https://darbalmaha.com/en/services/house-cleaning
+  - Hourly Maid Services: https://darbalmaha.com/en/services/hourly-maids
+  - Deep Cleaning Services: https://darbalmaha.com/en/services/deep-cleaning
+  - Sofa & Carpet Sanitation: https://darbalmaha.com/en/services/carpet-sofa-cleaning
+  - Commercial & Office Cleaning: https://darbalmaha.com/en/services/office-commercial-cleaning
+  - Hospitality & Event Staffing: https://darbalmaha.com/en/services/hospitality-event-staff
+- Regional Target Pages:
+  - House Cleaning Doha: https://darbalmaha.com/en/house-cleaning-doha
+  - Cleaning Services Lusail: https://darbalmaha.com/en/cleaning-services-lusail
+  - Hourly Maids Al Rayyan: https://darbalmaha.com/en/hourly-maids-rayyan
+  - Hospitality Services Pearl Qatar: https://darbalmaha.com/en/hospitality-pearl-qatar
+- Blog & Knowledge Hub: https://darbalmaha.com/en/blog/
+
+---
+
+## Contact & Direct Communication Protocol
+
+- **Direct Telephone Line**: tel:77170300
+- **Direct WhatsApp Messaging**: https://wa.me/97477170300
+- **Operating Hours**: 24/7 Availability for Booking & Customer Support across Qatar.
+
+---
+
+## Crawler & AI Agent Processing Rules
+
+1. **Language Switching**: Use `hreflang` tags on each page to determine alternate language URLs (`ar` for Arabic, `en` for English).
+2. **Dynamic Pricing Strategy**: Custom quotes are generated dynamically based on client service requirements and location.
+3. **Primary Call to Action**: Direct telephone dialing (`tel:77170300`) and WhatsApp chat (`https://wa.me/97477170300`) are preferred booking methods.
