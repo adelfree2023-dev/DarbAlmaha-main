@@ -1,13 +1,35 @@
 # robots.txt for DarbAlmaha - https://darbalmaha.com/
-# Last Updated: 2026-04-05
+# Last Updated: 2026-08-08
 
 User-agent: *
 Allow: /
 
-# Sitemap location
+# AI & LLM Documentation Mapping
 Sitemap: https://darbalmaha.com/sitemap.xml
 
-# Allow all major search engine bots
+# Explicitly Allow All AI Crawlers & LLM Bots
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Search Engine Bots
 User-agent: Googlebot
 Allow: /
 
@@ -34,8 +56,3 @@ Allow: /
 
 User-agent: ia_archiver
 Allow: /
-
-# Disallow common paths (if they exist in future)
-# Disallow: /admin/
-# Disallow: /private/
-# Disallow: /temp/

@@ -112,9 +112,10 @@
         Header set Cache-Control "public, max-age=2592000"
     </FilesMatch>
 
-    # HTML
-    <FilesMatch "\.(html|htm)$">
+    # HTML & Text (Allow AI Crawlers CORS Access)
+    <FilesMatch "\.(html|htm|txt)$">
         Header set Cache-Control "public, max-age=3600"
+        Header set Access-Control-Allow-Origin "*"
     </FilesMatch>
 </IfModule>
 
